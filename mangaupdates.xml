@@ -1,17 +1,22 @@
-﻿<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
-                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-<ShortName>MangaUpdates - Title Search</ShortName>
-<Description>Searches MangaUpdates for manga titles.</Description>
-<InputEncoding>UTF-8</InputEncoding>
-<Image width="16" height="16">data:image/x-icon;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
-AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wgALCAAQABABAREA/8QAFwAAAwEAAAAA
-AAAAAAAAAAAAAQQGCP/aAAgBAQAAAAHaAn2//8QAFxABAQEBAAAAAAAAAAAAAAAAAwQCAf/aAAgB
-AQABBQLu5AoxuOp8kdcyYCEv/8QAJRAAAgIBAgYCAwAAAAAAAAAAAQIDBBIFEQATFCIjMQZBITJh
-/9oACAEBAAY/AtAripREJpacbQNSseZ1KIpMjGPLsTZgQR734+QRdLSMHQX3qAVK20fIRlDRkRg9
-6HMn798TzvZqc2Otpq0wbtYGRFgjWQJ5ffLA3yx7vx+3FeWKzTdpNM1CO/hcqnB5IZyA3l+kdEGO
-W5jxH9//xAAYEAEBAQEBAAAAAAAAAAAAAAABESEAQf/aAAgBAQABPyGhKJxVDBhgU69IHiRHZ1Yx
-WDM4Z0N2/CYJFNk1wuqaqZRWy+i85//aAAgBAQAAABBf/8QAGBABAAMBAAAAAAAAAAAAAAAAAQAR
-MUH/2gAIAQEAAT8QvUl5kMSDB0HEIjrmTCKrWIh2qhNvNt4N3Ko/1QzNNoxBWX//2Q==</Image>
-<SearchForm>http://www.mangaupdates.com/series.html</SearchForm>
-<Url type="text/html" method="get" template="http://www.mangaupdates.com/series.html?search={searchTerms}"/>
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+					xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<!-- description part -->
+	<ShortName>MangaUpdates</ShortName>
+	<LongName>MangaUpdates - Title Search</LongName>
+	<Description>Searches www.mangaupdates.com for manga titles.</Description>
+	<Tags>manga, novel, licensed manga, one-shots, artbook, manhwa, manhua, oel, drama cd, doujinshi</Tags>
+	<Image width="16" height="16" type="image/x-icon">http://www.mangaupdates.com/favicon.ico</Image>
+	
+	<!-- author of this file -->
+	<Developer>mflatischler</Developer>
+	
+	<!-- search part -->
+	<Url type="text/html" method="get" template="http://www.mangaupdates.com/series.html?search={searchTerms}"/>
+	<Language>en</Language>
+	<InputEncoding>UTF-8</InputEncoding>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	
+	<!-- misc -->
+	<SearchForm>http://www.mangaupdates.com/series.html</SearchForm>
 </OpenSearchDescription>
